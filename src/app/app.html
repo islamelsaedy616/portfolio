@@ -1,0 +1,1329 @@
+<!------------------ Start NavBar ------------------>
+<nav class="bg-transparent w-full fixed top-3 left-0 z-50 px-3">
+  <div
+    class="container mx-auto flex flex-wrap items-center justify-between p-4 backdrop-blur-md bg-white/15 rounded-2xl"
+  >
+    <!-- logo -->
+    <a
+      href="#"
+      class="flex items-center justify-center space-x-2.5 rtl:space-x-reverse"
+    >
+      <span
+        class="w-[35px] h-[35px] text-black bg-[#33BBFF] rounded-full flex justify-center items-center"
+      >
+        <i class="fa-solid fa-i"></i>
+      </span>
+
+      <span class="text-lg text-white font-semibold">ISLAM.</span>
+    </a>
+    <!--  -->
+    <button
+      data-collapse-toggle="navbar-default"
+      type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+      aria-controls="navbar-default"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-6 h-6"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-width="2"
+          d="M5 7h14M5 12h14M5 17h14"
+        />
+      </svg>
+    </button>
+    <!--  -->
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul
+        class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-base md:flex-row md:space-x-9 rtl:space-x-reverse md:mt-0 bg-transparent"
+      >
+        <li>
+          <a
+            href="#hero"
+            class="block py-2 px-3 text-white font-semibold md:px-[13px] md:py-[11px] hover:text-[#33BBFF] transition duration-200"
+            aria-current="page"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#about"
+            class="block py-2 px-3 text-white font-semibold md:px-[13px] md:py-[11px] hover:text-[#33BBFF] transition duration-200"
+            aria-current="page"
+            >About Me</a
+          >
+        </li>
+        <li>
+          <a
+            href="#skills"
+            class="block py-2 px-3 text-white font-semibold md:px-[13px] md:py-[11px] hover:text-[#33BBFF] transition duration-200"
+            aria-current="page"
+            >Skills
+          </a>
+        </li>
+        <li>
+          <a
+            href="#projects"
+            class="block py-2 px-3 text-white font-semibold md:px-[13px] md:py-[11px] hover:text-[#33BBFF] transition duration-200"
+            aria-current="page"
+            >Projects
+          </a>
+        </li>
+        <li>
+          <a
+            href="#servces"
+            class="block py-2 px-3 text-white font-semibold md:px-[13px] md:py-[11px] hover:text-[#33BBFF] transition duration-200"
+            aria-current="page"
+            >Servces
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#contact"
+            class="block py-2 px-3 text-black bg-[#33BBFF] font-semibold md:px-[13px] md:py-[11px] hover:text-white transition duration-300"
+            aria-current="page"
+            >Contact Me
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!------------------ End NavBar ------------------>
+
+<main class="container mx-auto">
+  <!------------------ Start Hero Section ------------------>
+  <section
+    id="hero"
+    class="w-full mt-32 md:mt-40 flex flex-col-reverse md:flex-row items-center justify-between px-4 scroll-mt-40"
+  >
+    <!-- Hero Content -->
+    <div class="md:w-[50%]">
+      <h1 class="text-white mb-6 hidden md:block md:text-2xl lg:text-4xl">
+        HI
+        <span
+          class="md:text-5xl font-extrabold text-[var(--second)] lg:text-7xl"
+          >I'm Islam</span
+        >
+      </h1>
+
+      <p
+        class="text-white text-[22px] leading-10 text-center md:text-start md:text-lg lg:leading-11 lg:text-xl"
+      >
+        <span
+          class="font-extrabold pl-[3px] pr-[6px] bg-gradient-to-r from-[#33BBFF] to-transparent"
+        >
+          Frontend Developer </span
+        >who builds fast, clean, and user-friendly interfaces. I focus on
+        creating responsive and consistent web experiences with organized,
+        scalable code that delivers real value to users.
+      </p>
+
+      <!-- Icon Scroll Down -->
+      <div
+        class="flex items-center justify-center md:justify-start gap-3 text-white mt-10 md:mt-16"
+      >
+        <a href="#">
+          <div
+            class="w-8 h-8 rounded-full bg-[var(--second)] flex justify-center items-center animate-[scroll-down_2.5s_infinite]"
+          >
+            <i class="fa-solid fa-arrow-down text-black text-sm"></i>
+          </div>
+        </a>
+
+        <span class="text-sm tracking-wide text-[#d3d3d3]"> Scroll Down </span>
+      </div>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="flex flex-col md:flex-row items-center gap-8 relative">
+      <h1 class="text-white text-2xl md:hidden">
+        HI
+        <span class="text-5xl font-extrabold text-[var(--second)]"
+          >I'm Islam</span
+        >
+      </h1>
+
+      <!-- Arrows -->
+      <div class="arrowLine hidden md:block">
+        <!-- Arrow 1 -->
+        <svg
+          class="svg-draw rotate-90 relative md:left-0 md:top-[-4rem] xl:left-[-2.5rem]"
+          width="80"
+          height="100"
+          viewBox="0 0 53 68"
+          fill="none"
+        >
+          <path
+            d="M1.00001 0.999988C6.91304 1.98551 26.6061 10.9359 27.0417 20.0833C27.223 23.8896 25.316 29.2172 22.1667 31.6666C15.4036 36.9267 4.17815 29.9088 13.5 23.5C18.7279 19.9058 26.1975 22.8211 31.4583 24.9583C38.5 28.5 38.5 28.5 43.3334 35.25C49 44.5 48.6119 57.8059 47.5 57.25"
+            stroke="#33BBFF"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M49.75 64C48.6261 63.3881 40.1729 58.4261 41.125 59.1666C42.3712 60.136 43.7571 61.0071 44.875 62.125C46.1976 63.4476 47.8331 64.4164 49 65.875C50.0239 67.1549 52 58.7612 52 57.25"
+            stroke="#33BBFF"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+
+        <!-- Line -->
+        <svg
+          class="svg-draw rotate-[35deg] relative md:left-[-7rem] md:top-12 lg:left-[-14rem] xl:left-[-24rem]"
+          width="60"
+          height="90"
+          viewBox="0 0 53 81"
+          fill="none"
+        >
+          <path
+            d="M51.0477 1.17087C40.4513 17.1607 29.0523 32.4971 19.0372 48.8629C13.2804 58.2703 -3.92008 86.412 2.91504 77.7563C14.1498 63.5292 23.3468 47.4314 33.901 32.6695C37.9902 26.9499 42.2523 21.395 46.5698 15.8481C48.2313 13.7136 49.8214 12.2153 47.4714 15.8092C36.9829 31.8496 25.4188 47.1543 14.8614 63.1553C13.7348 64.8628 10.6583 70.0727 12.1285 68.6502C17.5175 63.4362 22.0878 57.1433 26.7655 51.3269C32.3983 44.3228 37.6555 36.9359 43.6299 30.2146C45.776 27.8003 48.0708 24.232 50.6916 22.3437C55.3294 19.0022 45.7662 32.6808 42.8159 37.5768C37.9058 45.7249 32.2719 53.4829 27.191 61.523"
+            stroke="#33BBFF"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Image + Border -->
+      <div class="image relative inline-block z-[11]">
+        <img
+          src="/me.jpg"
+          class="w-[300px] h-[400px] sm:w-[350px] sm:h-[450px] md:w-[300px] md:h-[370px] lg:w-[360px] lg:h-[480px] object-cover"
+        />
+
+        <div
+          class="absolute inset-0 border-[5px] border-[#33BBFF] translate-x-4 translate-y-4 -z-[1] border-glow-strong"
+        ></div>
+      </div>
+      <!-- Social Icons -->
+      <div
+        class="flex justify-center md:flex-col items-center gap-4 mt-3 md:mt-6 mb-7 md:mb-0"
+      >
+        <a
+          href="https://linkedin.com/in/islam-elsaedy"
+          target="_blank"
+          class="w-[35px] h-[35px] flex justify-center items-center bg-gray-300 text-2xl hover:scale-110 active:scale-75 rounded transition duration-200"
+        >
+          <i class="fa-brands fa-linkedin text-[#0A66C2]"></i>
+        </a>
+        <a
+          href="https://github.com/islamelsaedy616"
+          target="_blank"
+          class="w-[35px] h-[35px] flex justify-center items-center bg-gray-300 text-2xl hover:scale-110 active:scale-75 rounded transition duration-200"
+        >
+          <i class="fa-brands fa-square-github text-[#181717]"></i>
+        </a>
+        <a
+          href="mailto:islamelsaedy616@gmail.com"
+          class="w-[35px] h-[35px] flex justify-center items-center bg-gray-300 text-2xl hover:scale-110 active:scale-75 rounded transition duration-200"
+        >
+          <i class="fa-solid fa-envelope text-[#bc2517]"></i>
+        </a>
+
+        <div class="linnn hidden">
+          <svg
+            class="arrow invert"
+            width="70"
+            height="50"
+            viewBox="0 0 53 68"
+            fill="none"
+          >
+            <path
+              d="M1.00001 0.999988C6.91304 1.98551 26.6061 10.9359 27.0417 20.0833C27.223 23.8896 25.316 29.2172 22.1667 31.6666C15.4036 36.9267 4.17815 29.9088 13.5 23.5C18.7279 19.9058 26.1975 22.8211 31.4583 24.9583C38.5 28.5 38.5 28.5 43.3334 35.25C49 44.5 48.6119 57.8059 47.5 57.25"
+              stroke="#F2F2F2"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M49.75 64C48.6261 63.3881 40.1729 58.4261 41.125 59.1666C42.3712 60.136 43.7571 61.0071 44.875 62.125C46.1976 63.4476 47.8331 64.4164 49 65.875C50.0239 67.1549 52 58.7612 52 57.25"
+              stroke="#F2F2F2"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------ End Hero Section ------------------>
+
+  <!------------------ Start About Me Section ------------------>
+  <section
+    id="about"
+    class="px-5 py-20 sm:py-24 md:py-28 flex flex-col items-center gap-16 md:flex-row scroll-mt-10"
+  >
+    <!-- About Image -->
+    <div class="flex flex-col items-center gap-7 w-full md:w-1/2">
+      <h2 class="heading p-1 mb-12 md:hidden">
+        About Me
+
+        <!-- Glow Behind Text -->
+        <span class="glow-heading"></span>
+
+        <!-- Underline -->
+        <span class="underline-glow"></span>
+      </h2>
+
+      <div class="relative z-[1] inline-block">
+        <!-- Image -->
+        <img
+          src="/me2.jpg"
+          alt=""
+          class="w-[280px] h-[380px] sm:w-[320px] sm:h-[420px] md:w-[300px] md:h-[370px] lg:w-[360px] lg:h-[480px] border-8 border-[var(--second)] object-cover relative"
+        />
+
+        <!-- Back Shape -->
+        <div
+          class="absolute inset-0 scale-[1.2] translate-y-[1%] bg-[#001a33] border-b-[7px] border-[var(--second)] -z-[1] shadow-[0_25px_35px_#0007] blur-[2px]"
+        ></div>
+      </div>
+    </div>
+
+    <!-- About Content -->
+    <div class="text-center md:text-start w-full md:w-1/2">
+      <h2 class="heading p-1 !mb-12 hidden md:block">
+        About Me
+
+        <!-- Glow Behind Text -->
+        <span class="glow-heading"></span>
+
+        <!-- Underline -->
+        <span class="underline-glow"></span>
+      </h2>
+
+      <div class="text-white flex items-start gap-2 leading-tight mb-10">
+        <span
+          class="block w-[125px] h-[2.5px] bg-[var(--second)] mt-[18px] rounded-full hidden md:block"
+        ></span>
+
+        <p class="text-white text-xl leading-9">
+          I'm a self-taught
+          <b class="text-[var(--second)]">Front-End Developer</b> who loves
+          building clean, responsive, and user-focused
+          <b class="text-[var(--second)]">Web Experiences</b>. I work with
+          <b class="text-[var(--second)]">HTML, CSS, JavaScript</b> and I'm
+          currently growing my skills with
+          <b class="text-[var(--second)]">Angular</b>. I'm passionate about
+          continuous learning and creating
+          <b class="text-[var(--second)]">efficient real-world projects</b>.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex items-center gap-5 mt-12">
+        <a
+          href=""
+          class="w-[150px] h-[50px] flex justify-center items-center gap-[10px] rounded-full text-white font-medium bg-[#00101a] shadow-[inset_0_0_12px_#33bbff,0_0_15px_#33bbff] transition-all duration-300 hover:shadow-[inset_0_0_15px_#33bbff,0_0_22px_#33bbff]"
+        >
+          <span>Resume <i class="fa-regular fa-file"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!------------------ End About Me Section ------------------>
+
+  <!------------------ Start Skills & Tools Section ------------------>
+  <section id="skills" class="px-5 py-10 md:py-16 scroll-mt-10">
+    <h2 class="heading mx-auto">
+      What I Offer
+
+      <!-- Glow Behind Text -->
+      <span class="glow-heading"></span>
+
+      <!-- Underline -->
+      <span class="underline-glow"></span>
+    </h2>
+
+    <div class="flex flex-col gap-15 lg:gap-20 md:flex-row justify-center">
+      <!-- Front End -->
+      <div
+        class="group relative lg:w-[40%] bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 text-white overflow-hidden transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_20px_40px_#0005]"
+      >
+        <!-- Glow Effect -->
+        <div
+          class="absolute top-0 left-0 w-[260px] h-[200px] bg-[radial-gradient(circle_at_top_left,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[380px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+        ></div>
+
+        <!-- Title -->
+        <h3 class="text-3xl font-bold py-2">Front End</h3>
+
+        <!-- Paragraph -->
+        <p>
+          Front-End Developer with strong experience in building modern,
+          responsive websites using HTML, CSS, JavaScript, TypeScript, and
+          Angular.
+        </p>
+
+        <!-- Skills Section -->
+        <div class="py-4">
+          <h4 class="py-1 text-gray-300 text-sm font-semibold">
+            Skills & Tools
+          </h4>
+
+          <ul class="flex flex-wrap">
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              HTML
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              CSS
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              JavaScript
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Angular
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              TypeScript
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Scss
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Bootstrap
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Tailwind
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Back End -->
+      <div
+        class="group relative lg:w-[40%] bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 text-white overflow-hidden transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_20px_40px_#0005]"
+      >
+        <!-- Glow Effect  -->
+        <div
+          class="absolute top-0 right-0 w-[260px] h-[200px] bg-[radial-gradient(circle_at_top_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[380px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+        ></div>
+
+        <!-- Title -->
+        <h3 class="text-3xl font-bold py-2">Back End</h3>
+
+        <!-- Paragraph -->
+        <p>
+          Front-End Developer with strong experience in building modern,
+          responsive websites using HTML, CSS, JavaScript, TypeScript, and
+          Angular.
+        </p>
+
+        <!-- Skills Section -->
+        <div class="py-4">
+          <h4 class="py-1 text-gray-300 text-sm font-semibold">
+            Skills & Tools
+          </h4>
+
+          <ul class="flex flex-wrap">
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              HTML
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              CSS
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              JavaScript
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Angular
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              TypeScript
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Scss
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Bootstrap
+            </li>
+            <li
+              class="border border-white rounded-4xl py-0.5 px-2 text-sm font-semibold me-1 mb-2"
+            >
+              Tailwind
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------ End Skills & Tools Section ------------------>
+
+  <!------------------ Start Projects Section ------------------>
+  <section id="projects" class="px-5 py-16 scroll-mt-10">
+    <h2 class="heading mx-auto">
+      Projects
+
+      <!-- Glow Behind Text -->
+      <span class="glow-heading"></span>
+
+      <!-- Underline -->
+      <span class="underline-glow"></span>
+    </h2>
+
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">01</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">02</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">03</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">04</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">05</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">06</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">07</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">08</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div
+          class="group relative bg-gray-800/15 backdrop-blur-md rounded-[45px] p-5 shadow-md overflow-hidden transition-all duration-500 hover:scale-[1.03]"
+        >
+          <!-- Glow -->
+          <div
+            class="absolute bottom-0 right-0 w-[300px] h-[200px] bg-[radial-gradient(circle_at_bottom_right,_#33bbff_0%,_transparent_80%)] opacity-60 blur-[25px] pointer-events-none -z-[1] transition-all duration-500 group-hover:w-[400px] group-hover:h-[300px] group-hover:blur-[45px] group-hover:opacity-80"
+          ></div>
+
+          <!-- Image Box -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img
+              src="/me.jpg"
+              alt=""
+              class="w-full h-[200px] object-cover rounded-xl"
+            />
+
+            <!-- Arrow Overlay -->
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-all duration-300 flex items-start justify-end p-3"
+            >
+              <a
+                href=""
+                class="text-white bg-black border-2 border-[var(--second)] w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-md rotate-[-40deg]"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Name -->
+          <div class="flex justify-between items-center mt-2">
+            <div class="flex items-center gap-2">
+              <span
+                class="block w-[18px] h-[2px] bg-[var(--second)] rounded-full"
+              ></span>
+
+              <p class="text-white/90 text-sm">Web Site</p>
+            </div>
+            <h3 class="text-2xl text-white font-semibold">09</h3>
+          </div>
+
+          <!-- Description -->
+          <div class="mt-3">
+            <h2 class="text-xl text-white font-semibold my-2">Website</h2>
+            <h4 class="text-gray-300 text-sm font-bold">Technologies Used</h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              HTML, CSS, JavaScript, Angular, TypeScript, Scss, Bootstrap,
+              TailwindCSS
+            </p>
+          </div>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <span>view</span>
+            </a>
+
+            <a
+              href=""
+              class="flex items-center gap-1 text-white text-sm font-semibold hover:text-[#33bbff] transition-all"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>code</span>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </section>
+  <!------------------ End Projects Section ------------------>
+
+  <!------------------ Start services Section ------------------>
+  <section id="servces" class="px-5 py-10 md:py-16 scroll-mt-10">
+    <h3 class="heading mx-auto">
+      Services
+
+      <!-- Glow Behind Text -->
+      <span class="glow-heading"></span>
+
+      <!-- Underline -->
+      <span class="underline-glow"></span>
+    </h3>
+
+    <div class="text-white flex flex-col md:flex-row gap-8 lg:gap-16">
+      <div
+        class="w-full md:w-1/3 text-center flex flex-col items-center p-10 rounded-3xl bg-gray-800/20 border border-white/10 backdrop-blur-lg shadow-[inset_0_0_15px_rgba(255,255,255,0.06)] transition-all duration-500 hover:scale-[1.05] hover:bg-white/10 hover:shadow-[0_25px_40px_#0005,0_0_25px_#33bbff40]"
+      >
+        <span
+          class="w-16 h-16 rounded-full bg-red-600/50 text-white flex items-center justify-center text-4xl"
+        >
+          <i class="fa-brands fa-angular"></i>
+        </span>
+
+        <h3 class="text-xl font-semibold my-4">Angular Development</h3>
+
+        <p class="text-gray-300">
+          Building powerful, scalable web apps using Angular and TypeScript.
+        </p>
+      </div>
+      <!--  -->
+      <div
+        class="w-full md:w-1/3 text-center flex flex-col items-center p-10 rounded-3xl bg-gray-800/20 border border-white/10 backdrop-blur-lg shadow-[inset_0_0_15px_rgba(255,255,255,0.06)] transition-all duration-500 hover:scale-[1.05] hover:bg-white/10 hover:shadow-[0_25px_40px_#0005,0_0_25px_#33bbff40]"
+      >
+        <span
+          class="w-16 h-16 rounded-full bg-blue-600/50 text-white flex items-center justify-center text-3xl"
+        >
+          <i class="fa-solid fa-pen-to-square"></i>
+        </span>
+
+        <h3 class="text-xl font-semibold my-4">UI / UX Design</h3>
+
+        <p class="text-gray-300">
+          Crafting clean, modern user interfaces with great user experience.
+        </p>
+      </div>
+      <!--  -->
+      <div
+        class="w-full md:w-1/3 text-center flex flex-col items-center p-10 rounded-3xl bg-gray-800/20 border border-white/10 backdrop-blur-lg shadow-[inset_0_0_15px_rgba(255,255,255,0.06)] transition-all duration-500 hover:scale-[1.05] hover:bg-white/10 hover:shadow-[0_25px_40px_#0005,0_0_25px_#33bbff40]"
+      >
+        <span
+          class="w-16 h-16 rounded-full bg-green-600/50 text-white flex items-center justify-center text-3xl"
+        >
+          <i class="fa-solid fa-chart-column"></i>
+        </span>
+
+        <h3 class="text-xl font-semibold my-4">Performance</h3>
+
+        <p class="text-gray-300">
+          Optimizing website speed, tracking analytics, and improving
+          performance.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!------------------ End services Section ------------------>
+
+  <!------------------ Start Contact Section ------------------>
+  <section id="contact" class="px-5 py-16 scroll-mt-10">
+    <h2 class="heading mx-auto">
+      Contact Me
+      <span class="glow-heading"></span>
+      <span class="underline-glow"></span>
+    </h2>
+
+    <div
+      class="max-w-5xl mx-auto mt-16 relative bg-gradient-to-br from-[#00141f] to-[#00070f] rounded-[35px] p-[2px] shadow-[0_0_20px_#33bbff40,0_0_40px_#009dff20]"
+    >
+      <div
+        class="rounded-[35px] p-6 sm:p-10 lg:p-12 bg-gray-900/20 backdrop-blur-2xl shadow-[inset_0_0_18px_#33bbff20,inset_0_0_10px_#ffffff10]"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12">
+          <!-- Left Content -->
+          <div class="text-white flex flex-col justify-center">
+            <h3 class="text-3xl sm:text-4xl font-bold mb-4 leading-snug">
+              Let's Build Something
+              <span class="text-[var(--second)] font-extrabold block sm:inline"
+                >Amazing</span
+              >
+            </h3>
+
+            <p
+              class="text-gray-300 leading-7 sm:leading-8 text-base sm:text-lg"
+            >
+              Got an idea or a project? I’m always ready to help create
+              something fast, elegant, and high-performance.
+            </p>
+
+            <div
+              class="w-full h-[1.5px] bg-gradient-to-r from-transparent via-[#33bbff80] to-transparent mt-6 sm:mt-8"
+            ></div>
+
+            <!-- Social Icons -->
+            <div class="flex items-center gap-4 sm:gap-5 mt-6 sm:mt-8">
+              <a
+                href="https://linkedin.com/in/islam-elsaedy"
+                target="_blank"
+                class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex justify-center items-center text-lg sm:text-xl text-white border border-white/10 hover:bg-white/20 hover:scale-110 active:scale-90 transition duration-300 shadow-[0_0_15px_#0a66c250]"
+              >
+                <i class="fa-brands fa-linkedin-in text-[#0A66C2]"></i>
+              </a>
+
+              <a
+                href="https://github.com/islamelsaedy616"
+                target="_blank"
+                class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex justify-center items-center text-lg sm:text-xl text-white border border-white/10 hover:bg-white/20 hover:scale-110 active:scale-90 transition duration-300 shadow-[0_0_15px_#0005]"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="mailto:islamelsaedy616@gmail.com"
+                class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex justify-center items-center text-lg sm:text-xl text-white border border-white/10 hover:bg-white/20 hover:scale-110 active:scale-90 transition duration-300 shadow-[0_0_15px_#ff000040]"
+              >
+                <i class="fa-solid fa-envelope text-red-400"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Form -->
+          <form
+            class="flex flex-col gap-5 sm:gap-6 bg-white/5 p-6 sm:p-8 rounded-[25px] shadow-[inset_0_0_18px_#33bbff20,inset_0_0_10px_#ffffff08] backdrop-blur-xl border border-white/10"
+          >
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6">
+              <input
+                type="text"
+                placeholder="Name"
+                class="w-full p-3.5 sm:p-4 rounded-xl bg-gray-900/40 border border-white/10 text-white placeholder-gray-400 text-sm sm:text-base focus:border-[var(--second)] outline-none transition duration-300"
+              />
+
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-full p-3.5 sm:p-4 rounded-xl bg-gray-900/40 border border-white/10 text-white placeholder-gray-400 text-sm sm:text-base focus:border-[var(--second)] outline-none transition duration-300"
+              />
+            </div>
+
+            <textarea
+              placeholder="Your Message"
+              rows="4"
+              class="w-full p-3.5 sm:p-4 rounded-xl bg-gray-900/40 border border-white/10 text-white placeholder-gray-400 text-sm sm:text-base focus:border-[var(--second)] outline-none transition duration-300 resize-none"
+            ></textarea>
+
+            <button
+              class="w-full py-3.5 mt-1 rounded-full border border-[var(--second)] text-[var(--second)] font-semibold text-lg tracking-wide bg-transparent hover:bg-[var(--second)] hover:text-black hover:shadow-[0_0_18px_#33bbff90] transition-all duration-300 ease-out"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------ End Contact Section ------------------>
+</main>
+<!-- Start Footer -->
+<footer class="py-6 border-t border-white/10">
+  <p class="text-center text-gray-400 text-md tracking-wide">
+    © 2026
+    <span class="text-[var(--second)] font-semibold">Islam Elsayed</span> — All
+    Rights Reserved.
+  </p>
+</footer>
+<!-- End Footer -->

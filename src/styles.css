@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: rgb(218, 218, 218);
+  background-color: hsl(240, 100%, 3%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-bg: #00000f;
+  --second: #33bbff;
+}
+
+.heading {
+  @apply relative text-5xl md:text-6xl font-extrabold w-fit text-transparent bg-clip-text bg-gradient-to-r from-[#33BBFF] via-white to-[#33BBFF] drop-shadow-[0_0_18px_rgba(51,187,255,0.45)] mb-20;
+}
+
+.glow-heading {
+  @apply absolute inset-0 mx-auto w-[120%] h-[60%] bg-[radial-gradient(circle,_rgba(51,187,255,0.25)_0%,_transparent_70%)] blur-2xl -z-10 opacity-80;
+}
+
+.underline-glow {
+  @apply block mx-auto mt-3 w-[65%] h-[4px] bg-gradient-to-r from-[#33BBFF] via-white to-transparent rounded-full;
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-1.7rem);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translatey(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0.1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes drawSmooth {
+  0% {
+    stroke-dashoffset: 500;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 500;
+  }
+}
+
+.svg-draw path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: drawSmooth 5s ease-in-out infinite;
+}
+
+/*  */
+
+@keyframes borderGlowStrong {
+  0%,
+  100% {
+    box-shadow: 0 0 0px #33bbff, 0 0 0px #33bbff inset;
+    opacity: 0.7;
+  }
+  50% {
+    box-shadow: 0 0 30px #33bbff, 0 0 15px #33bbff inset;
+    opacity: 1;
+  }
+}
+
+.border-glow-strong {
+  animation: borderGlowStrong 4s ease-in-out infinite;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 30px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  margin: 5px 7px;
+  background: #33bbff;
+  border-radius: 30px;
+}
